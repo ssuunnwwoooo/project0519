@@ -209,17 +209,20 @@ body {}
 .footer .top {
     height: 100%;
     display: block;
-    padding-bottom: 10px;
-    font-size: 23px;
+    padding-bottom: 30px;
+    font-size: 30px;
     letter-spacing: 8px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.footer .top .inner .span {
-    font-size: 10px;
-}
+.footer .top .inner {}
 
-.footer address {
-    line-height: 30px;
+.footer .inner {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+    padding-bottom: 20px;
 }
